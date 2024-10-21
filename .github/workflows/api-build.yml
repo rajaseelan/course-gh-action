@@ -15,5 +15,5 @@ jobs:
       - uses: actions/checkout@v4
       - run: dotnet --list-runtimes
       - run: dotnet --list-sdks
-      - run: dotnet bbuild
+      - run: dotnet build
         working-directory: ./api
