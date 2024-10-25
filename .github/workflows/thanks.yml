@@ -36,7 +36,7 @@ jobs:
             github.rest.issues.addLabels({
                 repo, owner, issue_number,
                 labels: ['todo-review']
-            };)
+            });
 
             // make comment id available to subequent steps
             return comment.data.id;
