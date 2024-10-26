@@ -21,6 +21,7 @@ jobs:
 
             const owner = context.repo_owner;
             const repo = context.repo.repo;
+            console.log(context.repo.repo, context.repo.owner);
 
             // lookup issue info
             const issue = await github.rest.issues.get({
