@@ -19,7 +19,7 @@ jobs:
             const issue_number = context.issue.number || 2;
             console.log(`issue_number: ${issue_number}`);
 
-            const owner = context.repo_owner;
+            const owner = context.repo.owner;
             const repo = context.repo.repo;
             console.log(context.repo.repo, context.repo.owner);
 
