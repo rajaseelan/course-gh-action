@@ -14,6 +14,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+// new summaries - not used
 var newSummaries = new[]
 {
     "Brrrrr", "Yikes", "Frozen", "Hot", "Ouch", "StopIt"
