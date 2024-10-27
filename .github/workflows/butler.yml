@@ -6,9 +6,10 @@ on:
 
 permissions:
   pull-requests: write
-  
+
 jobs:
   chat:
+    if: contains(github.event.comment.body, "/chat")
     runs-on: ubuntu-latest
     steps:
       - uses: ca-dp/code-butler@v1
