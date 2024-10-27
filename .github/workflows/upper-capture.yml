@@ -23,4 +23,8 @@ jobs:
       - run: go build
       - run: ls
       - run: go test -v
-      
+      - uses: actions/upload-artifacts@v4
+        with:
+          path: ./upper/upper
+          name: build
+          
