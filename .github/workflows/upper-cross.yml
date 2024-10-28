@@ -29,7 +29,7 @@ jobs:
       - uses: softprops/action-gh-release@v2
         with:
           files: ./upper/bin/upper*
-          body: "Binaries for the upp (g0) command"
+          body: "Binaries for the upp (g0) command!!!"
           tag_name: ${{ github.ref_name }}
       # - uses: actions/upload-artifact@v4
       #   with:
